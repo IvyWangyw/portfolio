@@ -11,14 +11,13 @@ import Dashboard from './components/Dashboard';
 function App() {
   return (
     <div className="App">
-
       <Routes>
-        <Route path="/portfolio" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="/portfolio/about" element={<About />} />
-          <Route path="/portfolio/portfolio" element={<Portfolio />} />
-          <Route path="/portfolio/contact" element={<Contact />} />
-          <Route path="/portfolio/dashboard" element={<Dashboard />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
     </div>

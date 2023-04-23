@@ -1,0 +1,8 @@
+.text-animate {
+    opacity:0;
+    display: inline-block;
+    animation: bounceIn 1s 0.5s forwards;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
